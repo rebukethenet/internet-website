@@ -1,5 +1,5 @@
 #index-title {
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: center;
   color: whitesmoke;
 }
@@ -19,4 +19,24 @@
 .responsive {
   max-width: 100%;
   height: auto;
+}
+
+a:link {
+  color: whitesmoke; 
+  background-color: transparent; 
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
 }
