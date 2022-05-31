@@ -4,13 +4,13 @@
     <!-- Greetz 👋 -->
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title> - Josh's Blog</title>
+    <title>Homelab - userdel.com</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../water.css'>
 </head>
 <body>
 <!--Title-->
-<h1>My homelab setup</h1>
+<h1>My homelab Setup</h1>
 
 <p>More to come, this is a work in progress...</p>
 
@@ -26,8 +26,9 @@
         </ul>
     </li>
     <li>
-        <a href="https://www.docker.com">Docker</a> for running/managing pretty much all applications and services. I'm just using <a href="https://docs.docker.com/compose/">Compose</a>, nothing fancy like Portainer. k8s is overkill for my needs, though it's fun to play with. RAM is the bottleneck on my $5 VPS so I'm interested in saving as much memory as possible; even k3s is too expensive.
+        <a href="https://www.docker.com">Docker</a> for running/managing pretty much all applications and services, like my <a href="https://www.minecraft.net/en-us/download/server/bedrock">Minecraft Bedrock server</a>. I'm just using <a href="https://docs.docker.com/compose/">Compose</a>, nothing fancy like <a href="https://www.portainer.io/">Portainer</a>. <a href="https://kubernetes.io/">Kubernetes</a> is overkill for my needs, though it's fun to play with. RAM is the bottleneck on my $5 VPS so I'm interested in saving as much memory as possible; even <a href="https://k3s.io/">k3s</a> is too expensive for me.
     </li>
+    <li><a href="https://systemd.io/">systemd</a> for what I consider to be core services/infra. Stuff where the (small) overhead of Docker doesn't give me much. Things like <a href="https://caddyserver.com/">Caddy</a>. I'm not a systemd hater, I find it easy enough to create a simple service with logging.</li>
 </ul>
 </p>
 
