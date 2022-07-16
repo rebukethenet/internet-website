@@ -1,0 +1,13 @@
+name: internet-website
+id: 'ari:cloud:compass:fecd0fb5-2b28-49b0-9302-e0c22ed55d54:component/56c9dcff-3874-4a21-b16d-053c544f398d/16748d05-4d41-4a79-8561-4b59168e36f3'
+description: null
+ownerId: null
+fields: {}
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/rebukethenet/internet-website'
+relationships: {}
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
